@@ -1,3 +1,10 @@
+<script>
+    import projects from "$lib/projects.json";
+    import reading from "$lib/reading.json";
+    import Project from "$lib/Project.svelte";
+    import ReadingItem from "$lib/ReadingItem.svelte";
+</script>
+
 <nav>
     <a class="current" href="/">Home</a>
     <a href="/projects">Projects</a>
@@ -18,7 +25,7 @@
     He thrives in domestic waters such as beds, sofas, and any location that
     recently experienced emotional turbulence. His hobbies include supervising
     naps, participating in dramatic staring contests with the wall, and arriving
-    instantly the moment someone says, “I just need a hug.” He does not ask
+    instantly the moment someone says, "I just need a hug." He does not ask
     questions, he simply absorbs vibes and occasionally crumbs.
 </p>
 <p>
@@ -31,3 +38,31 @@
     in important conversations he will absolutely not repeat.
 </p>
 <img src="image/ikea%20shark.jpg" alt="my face" />
+
+<h2>Latest Projects</h2>
+<div class="projects highlights">
+    {#each projects.slice(0, 3) as p}
+        <Project data={p} />
+    {/each}
+</div>
+
+<h2>What I'm Reading</h2>
+<div class="reading">
+    {#each reading as item}
+        <ReadingItem data={item} />
+    {/each}
+</div>
+
+<style>
+    img {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .reading {
+        display: flex;
+        flex-direction: column;
+        gap: 1.25em;
+    }
+</style>
