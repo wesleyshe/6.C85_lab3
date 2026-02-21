@@ -12,7 +12,10 @@
                 {data.title}
             {/if}
         </h3>
-        <p class="author">{data.author}</p>
+        <p class="author">
+            {data.author}{#if data.year}
+                · {data.year}{/if}
+        </p>
         {#if data.description}
             <p class="desc">{data.description}</p>
         {/if}

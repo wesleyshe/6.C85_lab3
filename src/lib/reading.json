@@ -2,19 +2,25 @@
     {
         "title": "Cybernetic Revolutionaries: Technology and Politics in Allende's Chile",
         "author": "Eden Medina",
+        "year": 2011,
         "image": "https://m.media-amazon.com/images/I/71JsI5jz5OL._SL1500_.jpg",
+        "description": "How Allende's Chile built a real-time cybernetic system to manage a socialist economy.",
         "link": "https://www.amazon.com/Cybernetic-Revolutionaries-Technology-Politics-Allendes/dp/0262525968"
     },
     {
         "title": "A Thousand Plateaus: Capitalism and Schizophrenia",
         "author": "Gilles Deleuze & Félix Guattari",
+        "year": 1980,
         "image": "https://m.media-amazon.com/images/I/51X8H91WWlL._SL1500_.jpg",
+        "description": "A post-structuralist exploration of desire, power, and multiplicity through the concept of the rhizome.",
         "link": "https://www.amazon.com/Thousand-Plateaus-Capitalism-Schizophrenia/dp/0816614024"
     },
     {
         "title": "A Second Modernism: MIT, Architecture, and the \"Techno-Social\" Moment",
         "author": "Arindam Dutta (ed.)",
+        "year": 2013,
         "image": "https://m.media-amazon.com/images/I/71bPR3ohw1L._SL1500_.jpg",
+        "description": "Examines how MIT shaped postwar architecture through its fusion of technology, social science, and design.",
         "link": "https://www.amazon.com/Second-Modernism-Architecture-Techno-Social-Moment/dp/026201985X"
     }
 ]
