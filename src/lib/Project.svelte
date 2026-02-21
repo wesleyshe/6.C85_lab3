@@ -1,9 +1,10 @@
 <script>
+    import { base } from "$app/paths";
     export let data = {};
 </script>
 
 <article>
-    <img src={data.image} alt={data.title} />
+    <img src="{base}{data.image}" alt={data.title} />
     <h3>{data.title}</h3>
     <p>{data.description}</p>
 </article>
