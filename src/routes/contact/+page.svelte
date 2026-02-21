@@ -1,3 +1,30 @@
-<svelte:head>
-  <title>Contact me</title>
-</svelte:head>
+<body>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/projects">Projects</a>
+    <a class="current" href="/contact">Contact</a>
+    <a href="/resume">Resume</a>
+    <a href="https://github.com/wesleyshe" target="_blank">GitHub</a>
+  </nav>
+
+  <h1>Contact</h1>
+
+  <form action="mailto:wesleys@mit.edu" method="GET">
+    <label>
+      Your email:
+      <input name="email" type="email" />
+    </label>
+
+    <label>
+      Subject:
+      <input name="subject" />
+    </label>
+
+    <label>
+      Message:
+      <textarea name="body"></textarea>
+    </label>
+
+    <button>Send</button>
+  </form>
+</body>
