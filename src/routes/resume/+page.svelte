@@ -1,15 +1,3 @@
-<script>
-  import { base } from "$app/paths";
-</script>
-
-<nav>
-  <a href="{base}/">Home</a>
-  <a href="{base}/projects">Projects</a>
-  <a href="{base}/contact">Contact</a>
-  <a class="current" href="{base}/resume">Resume</a>
-  <a href="https://github.com/wesleyshe" target="_blank">GitHub</a>
-</nav>
-
 <main class="cv">
   <header>
     <h1>BLÅHAJ</h1>
